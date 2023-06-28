@@ -7,6 +7,11 @@ body{
 
 header{
     background-color: #d14635;
+    border-radius: 50px;
+    border-top-left-radius: 323px;
+    border-bottom-left-radius: 323px;
+    border-top-right-radius: 323px;
+    border-bottom-right-radius: 323px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -25,25 +30,30 @@ header h1{
 }
 
 header img {
-    border-radius: 170px;
-    width: 300px;
-    border: 20px solid white;
+    border-radius: 220px;
+    width: 400px;
+    border: 20px solid rgb(172, 72, 10);
 }
 
 main{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 main img {
+    border-radius: 20px;
     max-width: 100%;
+    min-width: 100%;
+    border:20px solid#A31010;
 }
 
 h2{
     font-size: 35px;
     color: #e70c19;
     margin: 40px 0 10px;
+
 }
 
 a{
@@ -52,6 +62,7 @@ a{
 a:hover{
     color: white;
     background-color: #483a94;
+    opacity: 0.1;
 }
 
 footer{
